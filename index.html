@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/stylesheet.css" /> <!-- css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" /> <!--bootstrap-->
+        <!--icon-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        <title>Landing Page</title>
+    </head>
+
+    <body>
+        <!-- Section A -->
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="container">
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+            <div class="nav-link">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                <a class="nav-link" aria-current="page" id="home" href="#main">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" id="product" href="#pf-1">Product</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" id="abt" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" id="ctc" href="#contact">Contact</a>
+                </li>
+            </ul>
+            </div>
+    
+            <div id="main">
+            <button class="btn me-2" id="login" type="submit">
+                <p class="btn-text-login">Login</p>
+            </button>
+            <button class="btn btn-primary" id="sign-up" type="submit">
+                <p class="btn-text-sign">Sign Up</p>
+            </button>
+            </div>
+        </div>
+    
+        <!-- Banner -->
+        <div id="banner">
+            <div class="jumbotron">
+            <div class="row">
+                <div class="col-4" id="card-left">
+                <h1 class="body-text">Business Communications Reinvented</h1>
+                <p class="paragraph">
+                    Start communicating with your business team more efficiently with
+                    our app.
+                </p>
+                <button class="btn" type="submit">Get the app</button>
+                </div>
+    
+                <div class="col-8" id="card-center">
+                <div class="card" id="card-center-1">
+                    <span>
+                    <i
+                        class="fa-regular fa-file fa-xl"
+                        style="color: rgb(133, 0, 0)"
+                    ></i>
+                    </span>
+                </div>
+    
+                <div class="card" id="card-center-2">
+                    <span class="fa-stack fa-xl">
+                    <i
+                        class="fa-solid fa-circle-notch fa-spin fa-2x"
+                        style="color: rgb(133, 0, 0)"
+                    ></i>
+                    <i
+                        class="fa-solid fa-cloud-arrow-up fa-stack-1x fa-sm"
+                        style="color: rgb(133, 0, 0); margin-left: -6px"
+                    ></i>
+                    </span>
+                    <div class="paragraph-2">
+                    <h4>Uploading Document</h4>
+                    <p>7.09/108.98 GB</p>
+                    </div>
+                </div>
+    
+                <div class="card" id="card-center-3">
+                    <span class="fa-stack fa-xl">
+                    <i
+                        class="fa-regular fa-circle fa-3x"
+                        style="
+                        position: absolute;
+                        margin: -5.2px 0 0 -5px;
+                        color: rgb(133, 0, 0);
+                        "
+                    ></i>
+                    <i
+                        class="fa-solid fa-calendar-days fa-stack-1x fa-lg"
+                        style="color: rgb(133, 0, 0)"
+                    ></i>
+                    </span>
+                    <div class="paragraph-3">
+                    <h4>Team Meeting</h4>
+                    <p id="clock"></p>
+                    <p id="date">18 Nov 2022</p>
+                    </div>
+                    <div class="person">
+                    <div class="text-block" style="margin-bottom: 0px">
+                        <p>JM</p>
+                    </div>
+                    </div>
+                    <div class="person-1">
+                    <div class="text-block-1">
+                        <p>AC</p>
+                    </div>
+                    </div>
+                    <div class="person-2">
+                    <div class="text-block-2">
+                        <p>KD</p>
+                    </div>
+                    </div>
+                    <div class="person-3">
+                    <div class="text-block-3">
+                        <p>8+</p>
+                    </div>
+                    </div>
+                </div>
+    
+                <div class="card" id="card-center-4">
+                    <div class="person-initial">
+                    <div class="text-block-initial" style="margin-bottom: 0px">
+                        <p>JS</p>
+                        <div class="notif">
+                        <span
+                            class="translate-middle badge rounded-pill"
+                            style="
+                            background: rgb(133, 0, 0);
+                            border-style: solid;
+                            border-color: white;
+                            "
+                        >
+                            3
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="paragraph-4">
+                    <h4>John Smith</h4>
+                    <p>Hello, are you available for a pro…</p>
+                    </div>
+                    <div class="date">
+                    <p class="date-card-4" id="clock-2"></p>
+                    </div>
+                </div>
+    
+                <!-- card-right -->
+                <div class="card" id="card-right">
+                    <span class="fa-stack fa-xl">
+                    <i
+                        class="fa-solid fa-circle-notch fa-spin fa-3x"
+                        style="
+                        position: absolute;
+                        margin: -10px 0 0 -6px;
+                        color: rgb(133, 0, 0);
+                        "
+                    ></i>
+                    <i
+                        class="fa-solid fa-cloud-arrow-up fa-stack-1x fa-lg"
+                        style="color: rgb(133, 0, 0)"
+                    ></i>
+                    </span>
+                    <div class="paragraph-right">
+                    <p>1.73/2.09 GB</p>
+                    </div>
+                </div>
+    
+                <div class="card" id="card-right-2">
+                    <div class="person-initial">
+                    <div class="text-block-initial" style="margin-bottom: 0px">
+                        <p>AB</p>
+                        <div class="notif">
+                        <span
+                            class="translate-middle badge rounded-pill"
+                            style="
+                            background: rgb(133, 0, 0);
+                            border-style: solid;
+                            border-color: white;
+                            "
+                        >
+                            3
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="paragraph-right-2">
+                    <h4>Anna Brooks</h4>
+                    <p>Hi, how are you doing today?</p>
+                    </div>
+                    <div class="date">
+                    <p class="date-card-right-2" id="clock-3"></p>
+                    </div>
+                </div>
+    
+                <div class="card" id="card-right-3">
+                    <div class="message-card-right-3">
+                    <div class="text-block-message">
+                        <i
+                        class="fa-regular fa-bookmark fa-lg"
+                        style="margin-bottom: 0"
+                        ></i>
+                    </div>
+                    </div>
+                    <div class="paragraph-right-3">
+                    <h4>Message Saved</h4>
+                    <p>You have successfully saved this message</p>
+                    </div>
+                </div>
+    
+                <div class="card" id="card-right-4">
+                    <span>
+                    <i class="fa-regular fa-message fa-2xl"></i>
+                    </span>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <!--Section B-->
+        <!--section icon-->
+        <div id="section-icon">
+            <div class="item-1">
+            <div class="icon-cloud">
+                <i class="bi bi-cloud"></i>
+            </div>
+            <div>
+                <h2>Cloud based</h2>
+                <p>All your messages are always backed up.</p>
+            </div>
+            </div>
+            <div class="item-2">
+            <div class="icon-lock">
+                <i class="bi bi-lock"></i>
+            </div>
+            <div>
+                <h2>Secured</h2>
+                <p>All your messages are stored very securly.</p>
+            </div>
+            </div>
+        </div>
+
+        <!--section products features-->
+        <!--product feature 1-->
+        <section id="pf-1">
+            <div class="left-block">
+            <div class="container">
+                <div class="row">
+                <div class="card-1">
+                    <div class="card-body">
+                    <p class="item">AJ</p>
+                    <i class="bi bi-2-circle-fill"></i>
+                    <h5 class="card-title">Andrew Johnson</h5>
+                    <p class="card-text">I have seen that you are availabl…</p>
+                    <p id="time" class="card-text">1:03 PM</p>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="row">
+                <div class="card-2">
+                    <div class="card-body">
+                    <p class="item">DL</p>
+                    <i class="bi bi-1-circle-fill"></i>
+                    <h5 class="card-title">Daniel Luke</h5>
+                    <p class="card-text">Would you like to have a meetin…</p>
+                    <p id="time" class="card-text">5:27 AM</p>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="row">
+                <div class="card-3">
+                    <div class="card-body">
+                    <p class="item">MC</p>
+                    <i class="bi bi-4-circle-fill"></i>
+                    <h5 class="card-title">Mark Clarke</h5>
+                    <p class="card-text">This was such a busy week. I can…</p>
+                    <p id="time" class="card-text">2:08 AM</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+    
+            <div class="right-block">
+            <h2>
+                Use our app to <br />
+                send messages <br />
+                to your team
+            </h2>
+            <p>
+                We offer really easy communications for<br />all businesses from small
+                to large.
+            </p>
+            <button type="button" class="btn btn-outline-primary">
+                Get the app
+            </button>
+            </div>
+        </section>
+    
+        <!--product feature 2-->
+        <section id="pf-2">
+            <div class="top-side">
+            <h2>Transform your communications</h2>
+            <p>
+                Our mobile app is the only thing you need to change the<br />way you
+                communicate with your team
+            </p>
+            </div>
+    
+            <div class="container">
+            <div class="right-top-side">
+                <div class="row">
+                <div class="col-1">
+                    <div class="card-6">
+                    <div class="card-body">
+                        <i class="bi bi-file-earmark"></i>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card-4">
+                    <div class="card-body">
+                        <p class="item">SB</p>
+                        <i class="bi bi-3-circle-fill"></i>
+                        <h5 class="card-title">Spencer Brook</h5>
+                        <p class="card-text">Have you seen the project requi…</p>
+                        <p id="time" class="card-text">3:08 PM</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+    
+            <div class="left-top-side">
+                <div class="card-3">
+                <div class="card-body">
+                    <i class="bi bi-save"></i>
+                    <h5 class="card-title">Message Saved</h5>
+                    <p class="card-text">You have successfully saved this message</p>
+                </div>
+    
+                <div class="left-bottom-side">
+                    <div class="card-5">
+                    <div class="card-body">
+                        <i class="bi bi-chat-left"></i>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+    
+            <div class="right-centertop-side">
+                <div class="card-1">
+                <div class="card-body">
+                    <i class="bi bi-calendar"></i>
+                    <h5 class="card-title">Sales Meeting</h5>
+                    <p class="card-text">10.30 AM 05 May 2020</p>
+                </div>
+                <div class="round">
+                    <i class="item1">KR</i>
+                    <i class="item2">MJ</i>
+                    <i class="item3">OI</i>
+                    <i class="item4">+3</i>
+                </div>
+                </div>
+    
+                <div class="card-2">
+                <div class="card-body">
+                    <i class="bi bi-cloud-upload"></i>
+                    <h5 class="card-title">Uploading Document</h5>
+                    <p class="card-text">27,09/78,93 GB</p>
+                </div>
+                </div>
+            </div>
+    
+            <div class="right-bottom-side">
+                <div class="card-7">
+                <div class="card-body">
+                    <p class="item">AM</p>
+                    <i class="bi bi-2-circle-fill"></i>
+                    <h5 class="card-title">Amy Smith</h5>
+                    <p class="card-text">Could please call me now? It is i…</p>
+                    <p id="time" class="card-text">5:18 PM</p>
+                </div>
+                </div>
+    
+                <div class="card-8">
+                <div class="card-body">
+                    <i class="bi bi-cloud-upload"></i>
+                    <p>6,02/ 7,98 GB</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+
+        <!-- Section C -->
+        <!-- about -->
+        <section id="about" class="about">
+            <div class="right-side">
+                <h2>Increase the <br> efficiency within <br> your company</h2>
+                <p>Our app is the great way for you to start <br> getting more tasks done.</p>
+                <button type="button" class="btn btn-outline-primary">Get the app</button>
+            </div>
+
+            <div class="left-side">
+                <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4">
+                                <a><i class='bx bx-calendar'></i></a>
+                            </div>
+                            <div class="col">
+                                <h5 class="card-title">Daily Standup</h5>
+                                <p class="card-text">2.30 PM 15 Apr 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="item1">KU</i>
+                        <i class="item2">MG</i>
+                        <i class="item3">AI</i>
+                        <i class="item4">+29</i>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4">
+                                <a><i class='bx bx-calendar'></i></a>
+                            </div>
+                            <div class="col">
+                                <h5 class="card-title">Daily Emails</h5>
+                                <p class="card-text">8:30 AM 28 Apr 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="item1">MC</i>
+                        <i class="item2">KY</i>
+                        <i class="item3">AJ</i>
+                    </div>
+                </div>
+
+                <div id="blur" class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4">
+                                <a><i class='bx bx-calendar'></i></a>
+                            </div>
+                            <div class="col">
+                                <h5 class="card-title">Marketing Call</h5>
+                                <p class="card-text">4:45 PM 30 May 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="item1">CO</i>
+                        <i class="item2">VN</i>
+                    </div>
+                </div>
+
+                <div id="blur" class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4">
+                                <a><i class='bx bx-calendar'></i></a>
+                            </div>
+                            <div class="col">
+                                <h5 class="card-title">Project Meeting</h5>
+                                <p class="card-text">5:45 PM 1 Jun 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="item1">TR</i>
+                        <i class="item2">DE</i>
+                        <i class="item3">PB</i>
+                        <i class="item4">+2</i>
+                    </div>
+                </div>
+
+                <div id="blur2" class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4">
+                                <a><i class='bx bx-calendar'></i></a>
+                            </div>
+                            <div class="col">
+                                <h5 class="card-title">Presentation</h5>
+                                <p class="card-text">10:15 AM 2 Jul 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="blur2" class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4">
+                                <a><i class='bx bx-calendar'></i></a>
+                            </div>
+                            <div class="col">
+                                <h5 class="card-title">Sales Call</h5>
+                                <p class="card-text">12:30 PM 5 May 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- pricing -->
+        <section id="pricing">
+            <div class="header">
+                <h2>Explore our simple pricing</h2>
+                <p>We offer one of the most competitive prices on the <br> market for everyone.</p>
+            </div>
+
+            <div class="container">
+                <div id="card" class="card">
+                    <div class="card-body">
+                        <p class="card-text">Basic</p>
+                        <h5>$9</h5>
+                        <p class="card-text-2">Per month</p>
+                        <button id="btn-1" type="button" class="btn btn-outline-primary">Learn more</button>
+                    </div>
+                </div>
+
+                <div id="card-2" class="card">
+                    <div class="card-body">
+                        <p class="card-text">Premium</p>
+                        <h5>$29</h5>
+                        <p class="card-text-2">Per month</p>
+                        <button id="btn-2" type="button" class="btn btn-outline-primary">Get Started</button>
+                    </div>
+                </div>
+
+                <div id="card" class="card">
+                    <div class="card-body">
+                        <p class="card-text">Enterprise</p>
+                        <h5>$129</h5>
+                        <p class="card-text-2">Per month</p>
+                        <button id="btn-1" type="button" class="btn btn-outline-primary">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section D -->
+        <!-- Contact -->
+        <div id="contact" class="contact">
+            <div class="contact_card">
+            <span>Sign up to our newsletter</span>
+    
+            <p>
+                Receive latest news, updates, discounts and many other things every
+                week.
+            </p>
+    
+            <div class="email">
+                <input type="text" placeholder="Enter Your Email Address" />
+                <button type="button"><i class="fas fa-arrow-right"></i></button>
+            </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p class="companyname">Startup.io</p>
+            <p class="copyright">© 2020 - All rights reserved</p>
+            <div class="produk-footer">
+            <p class="title-produk">Product</p>
+            <p class="item1">Benefits</p>
+            <p class="item2">Feedback</p>
+            <p class="item3">Features</p>
+            </div>
+            <div class="about-footer">
+            <p class="title-produk">About</p>
+            <p class="item1">Company</p>
+            <p class="item2">Team</p>
+            </div>
+            <div class="support-footer">
+            <p class="title-produk">Support</p>
+            <p class="item1">Get help</p>
+            <p class="item2">Teams of service</p>
+            </div>
+        </div>
+
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/dfabc0038b.js" crossorigin="anonymous" defer></script>
+    </body>
+</html>
